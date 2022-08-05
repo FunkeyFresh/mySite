@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Header Section */
+
+.fa-solid {
+    margin: 0.313rem;
+}
+.fa-solid,
+.navbar-brand {
+    color: #58c195 !important;
+}
+.navbar-brand {
+    font-weight: bold !important;
+}
+
+.nav-link:hover {
+    color: #58c195 !important;
+}
+
+/* banner part */
+.banner-box {
+    height: 60vh;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../banner.jpg) no-repeat center center;
+    background-size: cover;
+    
+}
+.banner-content {
+    padding: 120px;
+    color: #fff;
+}
+.banner-para {
+    margin-top: 20px;
+    font-weight: 400;
+}
+.banner-heading{
+    line-height: 65px;
+    font-size: 55px;
+    font-weight: 400;
+}
+.btn {
+    background:#58c195 !important;
+    border: none !important;
+    padding: 8px 35px !important;
+    margin-top: 20px;
+    color: white !important;
+    border-radius: 30px !important;
+    font-weight: 400;
+}
+.btn:hover {
+    background: #52b88e !important; 
+
+}
+
+
+/*Services section */
+ .fa-desktop {
+    color: #52b88e;
+ }
+
+
+ .content p{
+    font-size: 15px;
+    color: rgb(82, 81, 81);
+ }
+
+
+ .card {
+    padding: 10px 15px;
+    transition: .5s;
+    cursor: pointer;
+    margin: 10px;
+}
+ .card:hover{
+    box-shadow: 1px 1px 40px 1px rgba(0, 0, 0, 0.291);
+    -webkit-box-shadow: 1px 1px 40px 1px rgba(0, 0, 0, 0.291);
+    -moz-box-shadow: 1px 1px 40px 1px rgba(0, 0, 0, 0.291);
+ }
+
+.allhead{
+    position: relative;
+
+}
+
+.allhead::before{
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 80px;
+    background: #52b88e;
+    bottom: 0;
+    margin-top: 10px;
+}
+
+
+
+
+/*Service section Animation */
+.service-box-1 {
+     animation: fade-in-move-down 2s;
+
+}
+
+.service-box-2 {
+    animation: fade-in2-move-down 3s;
+}
+
+@keyframes fade-in2-move-down {
+    0% {
+      opacity: 0;
+      transform: translateY(-3rem);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+@keyframes fade-in-move-down {
+    0% {
+      opacity: 0;
+      transform: translateY(-3rem);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* ------------- */
+
+
+
+
+
+
+
+  /* ---- About section ---- */
+  .counter {
+    font-size: 45px;
+    font-weight: bold;
+    margin: 5px;
+  }
+
+  .border {
+    border: none !important;
+    outline: none !important;
+    background: rgb(246, 246, 246) !important;
+  }
+
+
+  
+
+
+  .ab-head::before{
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 140px;
+    background: #52b88e;
+    bottom: 0;
+    margin-top: 10px;
+}
+
+.about-box {
+    padding-bottom: 150px;
+}
+
+
+
+
+
+/* Project Section */
+.project {
+    min-height: 100vh;
+}
+
+.mix img{
+    margin: 10px;
+}
+
+
+
+
+
+/* Team section */
+
+.team {
+   min-height: 90vh;
+}
+
+.team-card .col-md-3 {
+    flex: 0 0 auto;
+    width: 22% !important;
+}
+
+
+
+/* form section */
+.contact  {
+    min-height: 80vh;
+}
+
+.send-btn {
+   margin-left: 50px;
+}
+
+.con-title {
+    font-size: 13px;
+}
+
+.icon-box i {
+    background: #52b88e;
+    padding: 10px;
+    border-radius: 50%;
+    color: #fff;
+}
+
+/* footer part  */
+
+.location-f p {
+    font-size: 14px;
+}
+
+.footer-para {
+    font-size: 15px;
+    margin: 15px;
+}
+.footer-logo {
+
+    margin: 15px;
+}
+
+.short-link  a {
+    text-decoration: none;
+    color: rgb(54, 52, 52)
+}
+
+.copy-text {
+    line-height: 30px;
+    color:rgba(0, 0, 0, 0.453)
+}
